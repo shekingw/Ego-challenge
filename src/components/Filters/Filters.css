@@ -1,0 +1,98 @@
+.container-buttons {
+	display: flex;
+	margin-bottom: -2.1em;
+}
+
+.container-buttons p {
+	height: 20px;
+	margin-top: 20px;
+	line-height: 75px;
+	width: 73px;
+	height: 14;
+	font-weight: 600;
+}
+
+.container {
+	margin-top: 5em;
+}
+
+.divSelect {
+	display: flex;
+	margin-bottom: -6px;
+	justify-content: flex-end;
+}
+
+.divSelect select {
+	display: flex;
+	border: none;
+	font-weight: 600;
+	margin-top: 2px;
+}
+
+.container-buttons2 {
+	display: none;
+}
+
+.container-buttons2 select {
+	display: flex;
+	border: none;
+	font-weight: 600;
+	margin-top: 2px;
+}
+
+.divSelect option {
+	font-weight: 500;
+}
+
+.container-buttons button {
+	background-color: white;
+	border: none;
+	margin-top: 41px;
+	margin-left: 45px;
+	padding: 6px;
+	border-radius: 18px;
+}
+.container-buttons button:hover {
+	background-color: #f7f7f7;
+	border-radius: 18px;
+}
+.container-buttons button:focus {
+	background-color: #f7f7f7;
+	border-radius: 18px;
+}
+
+@media screen and (max-width: 990px) {
+	.container-buttons {
+		display: none;
+	}
+
+	.container-buttons2 {
+		display: flex;
+	}
+
+	.container-buttons2 p {
+		display: none;
+	}
+
+	.container-buttons2 select {
+		margin: auto;
+		height: 20px;
+		width: 95px;
+		border: none;
+	}
+
+	.divSelect {
+		margin: auto;
+	}
+
+	.divSelect select {
+		margin: auto;
+		height: 20px;
+		width: 120px;
+		border: none;
+	}
+
+	.container-selects {
+		display: flex;
+	}
+}

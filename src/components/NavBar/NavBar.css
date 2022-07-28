@@ -1,0 +1,116 @@
+.offcanvas-header-button {
+	border: none;
+	background-color: #fff;
+}
+
+.navbar-brand {
+	margin-left: 15px;
+}
+
+.container-fluid p {
+	margin-top: 17px;
+	font-weight: 400;
+}
+
+.nav-item {
+	font-weight: 400;
+}
+
+.nav-link {
+	height: 35px;
+	left: 61.54%;
+	right: 0%;
+	top: calc(50% - 24px / 2 - 55.5px);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	letter-spacing: -0.1px;
+
+	color: #000000;
+}
+
+#nav-last-item {
+	background-color: #efeeef;
+}
+
+.navLinks ul {
+	list-style: none;
+	display: flex;
+	margin-top: 15px;
+}
+
+.navLinks li .link1 {
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 65em;
+	color: black;
+}
+.navLinks li .link1:hover {
+	color: red;
+	text-decoration: underline 2px solid red;
+}
+.navLinks li .link1:focus {
+	color: red;
+	text-decoration: underline 2px solid red;
+}
+.navLinks li .link2 {
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: -115em;
+	color: black;
+}
+.navLinks li .link2:hover {
+	color: red;
+	text-decoration: underline 2px solid red;
+}
+.navLinks li .link2:focus {
+	color: red;
+	text-decoration: underline 2px solid red;
+}
+
+#navBar {
+	height: 70px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-toggler-icon {
+	color: black;
+}
+
+@media screen and (max-width: 1279px) {
+	.navbar-toggler {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	.container-fluid p {
+		display: none;
+	}
+
+	.container-fluid {
+	}
+
+	.navLinks ul {
+		display: none;
+	}
+
+	.nav-item .nav-link {
+		font-size: 30px;
+		font-weight: 500;
+	}
+
+	.offcanvas-header-button {
+		font-size: 20px;
+	}
+
+	.offcanvas-body li .nav-link {
+		font-size: 25px;
+	}
+}
