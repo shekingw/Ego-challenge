@@ -10,7 +10,7 @@
 
 El boilerplate cuenta con las carpetas generales al usar `Create React App`
 
-##### Intrucciones correr el proyecto:
+##### Intrucciones para correr el proyecto:
 
 git clone : https://github.com/shekingw/Ego-challenge.git
 
